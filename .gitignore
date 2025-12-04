@@ -1,0 +1,149 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Compiled output
+dist/
+build/
+*.js.map
+*.d.ts.map
+
+# NestJS specific
+.nest/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.directory
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+*.code-workspace
+
+# IDE - WebStorm / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# IDE - Other
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+coverage/
+*.lcov
+.nyc_output
+junit.xml
+test-results/
+*.spec.js
+*.spec.d.ts
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# Database files (if using SQLite locally)
+*.db
+*.sqlite
+*.sqlite3
+
+# Redis dump
+dump.rdb
+
+# Uploads / Storage (local development)
+uploads/
+public/uploads/
+public/storage/
+
+# Build artifacts
+*.tgz
+
+# TypeORM
+ormconfig.json
+.typeorm/
+
+# Package manager locks (optional - keep if team uses specific package manager)
+# Uncomment if you want to ignore lock files:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Certificates & Keys
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+
+# Sensitive data
+secrets/
+credentials/
+*.credentials
+
+# Documentation builds
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+# Cloudflare
+.wrangler/
+
+# MacOS
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.fuse_hidden*
+.nfs*
+
+# Claude Code / AI Tools
+.claude/
+.claude-cache/
+*.claude
+claude-*.log
+.anthropic/
+.ai-cache/
+CLAUDE.md
+
+# Documentation
+docs/
